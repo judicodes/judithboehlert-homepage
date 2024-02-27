@@ -34,10 +34,10 @@ function HeaderSection() {
         alt="Picture of Judi."
         className="mb-10 mt-16 w-6/12 rounded-full md:w-5/12"
       />
-      <h1 className="mb-2 font-serif text-6xl font-light text-blue-900 transition-all duration-500 dark:text-pink-100">
+      <h1 className="mb-4 font-serif  text-4xl font-light text-blue-900 transition-all duration-500 dark:text-pink-100 md:text-6xl">
         Judith Böhlert
       </h1>
-      <h2 className="mb-10 text-3xl font-semibold text-blue-900 transition-all duration-500 dark:text-pink-100">
+      <h2 className="mb-10 text-xl font-semibold text-blue-900 transition-all duration-500 dark:text-pink-100 md:text-3xl">
         Freelance Software Engineer
       </h2>
       <div className="flex h-12 flex-row items-center justify-center space-x-6 ">
