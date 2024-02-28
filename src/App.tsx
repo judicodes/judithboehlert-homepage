@@ -27,7 +27,7 @@ function App() {
           <button onClick={toggleDarkLightMode}>
             <FontAwesomeIcon
               icon={faCircleHalfStroke}
-              className="size-8 text-pink-900 transition hover:size-9 hover:text-pink-500 dark:text-blue-100 hover:dark:text-blue-500"
+              className="size-8 text-pink-700 transition-all duration-500 hover:size-9 hover:text-pink-900 dark:text-pink-300 hover:dark:text-pink-500"
             />
           </button>
         </div>
