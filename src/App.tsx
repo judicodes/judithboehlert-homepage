@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Suspense, lazy, useState } from "react";
 import AboutSection from "./components/AboutSection";
 import HeaderSection from "./components/HeaderSection";
+import ServicesSection from "./components/ServicesSection";
 import { Button } from "./components/ui/button";
 import { Dialog, DialogTrigger } from "./components/ui/dialog";
 
@@ -34,8 +35,9 @@ function App() {
         <div className="container mx-auto w-10/12 md:w-8/12 lg:w-5/12 2xl:w-4/12">
           <HeaderSection />
           <AboutSection />
+          <ServicesSection />
         </div>
-        <div className="dark pb-4 pt-8 text-center">
+        <div className="pb-4 pt-8 text-center">
           <Dialog>
             <DialogTrigger asChild>
               <Button variant="ghost" className="text-neutral-500">
