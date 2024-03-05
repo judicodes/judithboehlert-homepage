@@ -5,13 +5,9 @@ const paragraphs = [
 
   "Therefore, I embarked on a self-employment adventure, hoping to find a calm and sustainable approach to working in tech.",
 
-  "I can support your team as a freelance software engineer and consultant, primarily within the JavaScript/TypeScript ecosystem but I am always open to learning new technologies.",
-
   "I prefer progress over perfection and enjoy building prototypes, releasing MVPs, and shipping things fast. 🚀",
 
-  "While I enjoy discovering and learning new technologies, I am also passionate about Developer Experience and Developer Productivity since how we organise our work is just as important (if not more) than choosing the right tech stack. ✨",
-
-  "If you want to work with me, contact me at hello@judithboehlert.com. 💌"
+  "While I enjoy discovering and learning new technologies, I am also passionate about Developer Experience and Developer Productivity since how we organise our work is just as important (if not more) than choosing the right tech stack. ✨"
 ];
 
 function AboutSection() {
