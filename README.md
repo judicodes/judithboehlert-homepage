@@ -1,6 +1,6 @@
 # Personal Homepage
 
-This is the source code for my personal website [judithboehlert.com](https://www.judithboehlert.com).
+This is the source code for my personal website [judithboehlert.com](https://judithboehlert.com).
 
 It is built with React, TypeScript, Vite, TailwindCSS, shadcn/ui and hosted on Cloudflare Pages.
 
