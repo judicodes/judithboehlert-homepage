@@ -47,7 +47,7 @@ function HeaderSection() {
             href={icon.url}
             title={icon.title}
             target="_blank"
-            rel="noReferrer"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={icon.icon}
