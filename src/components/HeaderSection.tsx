@@ -32,7 +32,7 @@ function HeaderSection() {
       <img
         src={judiImage}
         alt="Picture of Judi."
-        className="mb-10 mt-16 w-6/12 rounded-full md:w-5/12"
+        className="mb-10 mt-16 aspect-square w-6/12 rounded-full md:w-5/12"
       />
       <h1 className="mb-4 font-serif  text-4xl font-light text-blue-900 transition-all duration-500 md:text-6xl dark:text-blue-100">
         Judith Böhlert
