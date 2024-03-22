@@ -28,10 +28,10 @@ const icons = [
 function HeaderSection() {
   return (
     <div className="mb-12 flex flex-col items-center">
-      <h1 className="mb-4 font-mono text-4xl text-neutral-700 transition-all duration-500 md:text-6xl dark:text-neutral-100">
+      <h1 className="mb-4 font-mono text-3xl text-neutral-700 transition-all duration-500 sm:text-4xl md:text-6xl dark:text-neutral-100">
         Judith Böhlert
       </h1>
-      <h2 className="font-mono text-xl font-semibold text-neutral-700 transition-all duration-500 md:text-3xl dark:text-neutral-100">
+      <h2 className="font-mono text-xl font-semibold text-neutral-700 transition-all duration-500 sm:text-2xl md:text-3xl dark:text-neutral-100">
         Freelance Full-stack Engineer
       </h2>
       <div className="my-10 flex h-12 flex-row items-center justify-center space-x-6 ">
