@@ -3,7 +3,7 @@ const paragraphs = [
 
   "I can support your team as a freelance software engineer and consultant, primarily within the JavaScript/TypeScript ecosystem but I am always open to learning new technologies.",
 
-  "Some of my favourite technologies right now: JavaScript, TypeScript, React, Vue, Node.js, TailwindCSS, GitHub Actions, Supabase.",
+  "Some of my favourite technologies right now: JavaScript, TypeScript, React, Vue, Node.js, TailwindCSS, GitHub Actions, PostgreSQL, Supabase.",
 
   "If you want to work with me, contact me at hello@judithboehlert.com. 💌"
 ];
@@ -11,7 +11,7 @@ const paragraphs = [
 function ServicesSection() {
   return (
     <div className="flex flex-col items-center">
-      <h3 className="my-4 font-serif text-4xl font-light italic text-neutral-900 transition-all duration-500 dark:text-neutral-100">
+      <h3 className="my-4 font-mono text-4xl italic text-neutral-700 transition-all duration-500 dark:text-neutral-100">
         Services
       </h3>
 
