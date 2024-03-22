@@ -15,7 +15,7 @@ const paragraphs = [
 function AboutSection() {
   return (
     <div className="my-8 flex flex-col items-center">
-      <h3 className="font-mono text-4xl italic text-neutral-700 transition-all duration-500 dark:text-neutral-100">
+      <h3 className="text-center font-mono text-2xl italic text-neutral-700 transition-all duration-500 sm:text-3xl dark:text-neutral-100">
         Hi, I&apos;m Judith.
       </h3>
       <img

@@ -11,7 +11,7 @@ const paragraphs = [
 function ServicesSection() {
   return (
     <div className="flex flex-col items-center">
-      <h3 className="my-4 font-mono text-4xl italic text-neutral-700 transition-all duration-500 dark:text-neutral-100">
+      <h3 className="my-4 text-center font-mono text-2xl italic text-neutral-700 transition-all duration-500 sm:text-3xl dark:text-neutral-100">
         Services
       </h3>
 
