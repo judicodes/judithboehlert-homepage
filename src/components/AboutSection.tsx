@@ -1,3 +1,5 @@
+import judiImage from "../assets/judi_couch_square_blurred.webp";
+
 const paragraphs = [
   "I wrote my first line of code the year we sang along to Adele's Rolling In The Deep and Bruno Mars's Grenade.",
 
@@ -12,11 +14,15 @@ const paragraphs = [
 
 function AboutSection() {
   return (
-    <div className="flex flex-col items-center">
-      <h3 className="mb-4 font-serif text-4xl font-light italic text-neutral-900 transition-all duration-500 dark:text-neutral-100">
+    <div className="my-8 flex flex-col items-center">
+      <h3 className="font-mono text-4xl italic text-neutral-700 transition-all duration-500 dark:text-neutral-100">
         Hi, I&apos;m Judith.
       </h3>
-
+      <img
+        src={judiImage}
+        alt="Portrait Judi."
+        className="my-4 aspect-square w-6/12 rounded-full md:w-5/12"
+      />
       <div className="flex flex-col ">
         {paragraphs.map((paragraph, index) => (
           <p

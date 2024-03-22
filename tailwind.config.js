@@ -26,6 +26,9 @@ export default {
         500: "#DC4BC5",
         700: "#A5078C",
         900: "#7E046A"
+      },
+      green: {
+        900: "#02292E"
       }
     },
     container: {
@@ -38,7 +41,8 @@ export default {
     extend: {
       fontFamily: {
         serif: ['"Noto Serif"', "serif"],
-        sans: ['"Noto Sans"', "sans-serif"]
+        sans: ['"Noto Sans"', "sans-serif"],
+        mono: ['"Fira Mono"', "monospace"]
       },
       keyframes: {
         "accordion-down": {
