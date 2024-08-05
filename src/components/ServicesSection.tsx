@@ -10,7 +10,7 @@ const paragraphs = [
 
 function ServicesSection() {
   return (
-    <div className="flex flex-col items-center rounded-md bg-beige-100 p-12 shadow-lg dark:bg-bluegrey-900">
+    <div className="flex flex-col items-center rounded-md bg-beige-100 p-8 shadow-lg dark:bg-bluegrey-900">
       <h3 className="my-4 text-center font-serif text-2xl sm:text-3xl">
         Services
       </h3>

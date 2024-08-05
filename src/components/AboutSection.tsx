@@ -23,7 +23,7 @@ function AboutSection() {
         alt="Portrait Judi."
         className="my-4 aspect-square w-6/12 rounded-full md:w-5/12"
       />
-      <div className="flex flex-col rounded-md bg-beige-100 p-12 shadow-lg dark:bg-bluegrey-900">
+      <div className="flex flex-col rounded-md bg-beige-100 p-8 shadow-lg dark:bg-bluegrey-900">
         {paragraphs.map((paragraph, index) => (
           <p key={index} className="mb-4 text-justify text-lg">
             {paragraph}

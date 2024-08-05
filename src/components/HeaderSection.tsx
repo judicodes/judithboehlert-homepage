@@ -27,7 +27,7 @@ const icons = [
 
 function HeaderSection() {
   return (
-    <div className="mb-12 flex flex-col items-center rounded-md bg-beige-100 p-12 shadow-lg dark:bg-bluegrey-900">
+    <div className="mb-12 flex flex-col items-center rounded-md bg-beige-100 p-8 shadow-lg dark:bg-bluegrey-900">
       <h1 className="mb-4 font-serif text-3xl sm:text-4xl md:text-6xl">
         Judith Böhlert
       </h1>

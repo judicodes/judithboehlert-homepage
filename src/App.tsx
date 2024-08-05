@@ -35,7 +35,7 @@ function App() {
           />
         </button>
       </div>
-      <div className="container mx-auto w-11/12 md:w-8/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12">
+      <div className="w-12/12 container mx-auto md:w-8/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12">
         <div className=" flex h-[100vh] flex-col items-center justify-center text-center">
           <HeaderSection />
         </div>
