@@ -7,7 +7,7 @@ import {
 
 function LegalModal() {
   return (
-    <DialogContent className="no-scrollbar max-h-screen max-w-xs overflow-auto border-none bg-neutral-100 text-neutral-900 sm:max-w-sm md:max-w-md dark:bg-neutral-900 dark:text-neutral-100">
+    <DialogContent className="no-scrollbar max-h-screen max-w-xs overflow-auto border-none bg-beige-100 text-bluegrey-900 sm:max-w-sm md:max-w-lg dark:bg-bluegrey-900 dark:text-bluegrey-100">
       <DialogHeader>
         <DialogTitle>Impressum (Legal Notice)</DialogTitle>
         <DialogDescription>According to German law.</DialogDescription>

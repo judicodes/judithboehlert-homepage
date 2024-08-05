@@ -15,7 +15,7 @@ const paragraphs = [
 function AboutSection() {
   return (
     <div className="my-8 flex flex-col items-center">
-      <h3 className="text-center font-mono text-2xl italic text-neutral-700 transition-all duration-500 sm:text-3xl dark:text-neutral-100">
+      <h3 className="text-center font-serif text-2xl sm:text-3xl">
         Hi, I&apos;m Judith.
       </h3>
       <img
@@ -23,12 +23,9 @@ function AboutSection() {
         alt="Portrait Judi."
         className="my-4 aspect-square w-6/12 rounded-full md:w-5/12"
       />
-      <div className="flex flex-col ">
+      <div className="flex flex-col rounded-md bg-beige-100 p-12 shadow-lg dark:bg-bluegrey-900">
         {paragraphs.map((paragraph, index) => (
-          <p
-            key={index}
-            className="mb-4 text-justify text-lg text-neutral-900 transition-all duration-500 dark:text-neutral-100 "
-          >
+          <p key={index} className="mb-4 text-justify text-lg">
             {paragraph}
           </p>
         ))}
