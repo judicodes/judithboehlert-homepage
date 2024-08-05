@@ -6,19 +6,19 @@ export default {
     colors: {
       white: "#FFFFFF",
       black: "#000000",
-      neutral: {
-        100: "#DEE8FB",
-        300: "#9FB0D1",
-        500: "#6B7D9F",
-        700: "#233861",
-        900: "#03112D"
+      beige: {
+        100: "#FCF8EF",
+        300: "#F0EDE6",
+        500: "#D5D1CA",
+        900: "#6C6657"
       },
-      blue: {
-        100: "#BED4FF",
-        300: "#9CBDFF",
-        500: "#3368D0",
-        700: "#073CA4",
-        900: "#022B7A"
+      bluegrey: {
+        100: "#DEE8FB",
+        200: "#9FB0D1",
+        300: "#6B7D9F",
+        500: "#233861",
+        700: "#03112D",
+        900: "#010B20"
       },
       pink: {
         100: "#FFD5F8",
@@ -26,9 +26,6 @@ export default {
         500: "#DC4BC5",
         700: "#A5078C",
         900: "#7E046A"
-      },
-      green: {
-        900: "#02292E"
       }
     },
     container: {
@@ -41,8 +38,7 @@ export default {
     extend: {
       fontFamily: {
         serif: ['"Noto Serif"', "serif"],
-        sans: ['"Noto Sans"', "sans-serif"],
-        mono: ['"Fira Mono"', "monospace"]
+        sans: ['"Noto Sans"', "sans-serif"]
       },
       keyframes: {
         "accordion-down": {
@@ -57,6 +53,15 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out"
+      },
+      backgroundImage: {
+        "grid-light":
+          "linear-gradient(to right, #d5d1ca 1px, transparent 1px), linear-gradient(to bottom, #d5d1ca 1px, transparent 1px)",
+        "grid-dark":
+          "linear-gradient(to right, #233861 1px, transparent 1px), linear-gradient(to bottom, #233861 1px, transparent 1px)"
+      },
+      backgroundSize: {
+        "custom-size": "100px 100px"
       }
     }
   },

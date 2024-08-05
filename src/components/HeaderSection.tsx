@@ -27,11 +27,11 @@ const icons = [
 
 function HeaderSection() {
   return (
-    <div className="mb-12 flex flex-col items-center">
-      <h1 className="mb-4 font-mono text-3xl text-neutral-700 transition-all duration-500 sm:text-4xl md:text-6xl dark:text-neutral-100">
+    <div className="mb-12 flex flex-col items-center rounded-md bg-beige-100 p-12 shadow-lg dark:bg-bluegrey-900">
+      <h1 className="mb-4 font-serif text-3xl sm:text-4xl md:text-6xl">
         Judith Böhlert
       </h1>
-      <h2 className="font-mono text-xl font-semibold text-neutral-700 transition-all duration-500 sm:text-2xl md:text-3xl dark:text-neutral-100">
+      <h2 className="font-serif text-xl sm:text-2xl md:text-3xl">
         Freelance Full-stack Engineer
       </h2>
       <div className="my-10 flex h-12 flex-row items-center justify-center space-x-6 ">
@@ -50,10 +50,11 @@ function HeaderSection() {
           </a>
         ))}
       </div>
-      <h3 className="text-center text-xl text-neutral-700 transition-all duration-500 md:text-2xl dark:text-neutral-100">
-        <span className="font-mono font-bold"> Top Skills:</span>{" "}
-        <span className="font-mono">
-          TypeScript - JavaScript - HTML - CSS - React - Vue - Node.js
+      <h3 className="text-center text-xl md:text-2xl">
+        <span className="font-bold"> Top Skills:</span>{" "}
+        <span>
+          TypeScript - JavaScript - HTML - CSS - React - Vue - TailwindCSS -
+          Node.js - Postgresql
         </span>
       </h3>
     </div>
