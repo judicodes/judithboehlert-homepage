@@ -16,11 +16,11 @@ function LegalModal() {
       <p className="mb-2">
         Judith B&ouml;hlert
         <br />
-        Judith B&ouml;hlert - Software Engineering &amp; Consulting
+        Judith B&ouml;hlert - Software Engineering
         <br />
-        Nazarathkirchstra&szlig;e 43
+        Kolonnenstr. 8
         <br />
-        13347 Berlin
+        10827 Berlin
       </p>
       <h2 className="underline">Kontakt: </h2>
       <p className="mb-2">
